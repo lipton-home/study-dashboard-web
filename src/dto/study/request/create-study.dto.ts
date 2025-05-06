@@ -1,7 +1,7 @@
-import {StudyStatus} from "@/api/study/enum/study-status";
-import {StudyType} from "@/api/study/enum/study-type";
+import {StudyStatus} from "@/dto/study/enum/study-status";
+import {StudyType} from "@/dto/study/enum/study-type";
 
-export default interface CreateStudyRequest {
+export default interface CreateStudyDto {
     title: string;
     description: string;
     status: StudyStatus;
